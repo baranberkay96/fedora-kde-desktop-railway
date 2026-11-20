@@ -21,7 +21,7 @@ Listing: **Fedora 44 KDE Plasma Desktop in Your Browser**, "Fedora 44 KDE Plasma
 
 | Service | Idle RAM | Typical | CPU |
 |---|---|---|---|
-| Desktop | ~0.6 GB (estimate) | 1–2 GB with Chromium | 0.1 vCPU idle, 1–2 vCPU while the screen changes |
+| Desktop | about 0.61 GB of RAM idle and 0.67 GB with a browser session streaming (not yet tested under a 1 GB limit, so Trial is likely but unconfirmed) | 1–2 GB with Chromium | 0.1 vCPU idle, 1–2 vCPU while the screen changes |
 
 About $6–10/month idle at Railway prices plus the volume ($0.15/GB-month); more while the desktop is in use. Minimum plan: Trial (1 GB); Free (0.5 GB) is too small.
 
