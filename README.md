@@ -1,5 +1,7 @@
 # Deploy and Host Fedora 44 KDE Plasma Desktop with Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/fedora-44-kde-plasma-desktop-in-your-bro?referralCode=20H68q)
+
 A Fedora 44 desktop with KDE Plasma (Wayland) that you open in a browser tab. It comes with Chromium, the Dolphin file manager, the Konsole terminal, KWrite, Discover and the system monitor. A generated password protects it, and your home directory (files, settings, browser profile) lives on a persistent volume.
 
 ## About Hosting Fedora 44 KDE Plasma Desktop
