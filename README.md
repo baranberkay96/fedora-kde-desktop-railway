@@ -32,7 +32,9 @@ A browser desktop needs a display server, a desktop session, a streaming server,
 |---|---|---|---|
 | Desktop | KDE Plasma on Wayland (KWin) desktop session, D-Bus, audio, Selkies (loopback only), nginx (login, `/healthz`), all supervised by s6 | `/config` | 3000 (public HTTPS domain) |
 
-**Plan:** Measured on Railway: about 0.61 GB of RAM idle and 0.67 GB with a browser session streaming (not yet tested under a 1 GB limit, so Trial is likely but unconfirmed). Free's 0.5 GB is too small. Use Hobby and 2 GB or more for Chromium and larger apps.
+**Plan:** The bare Plasma desktop and a live browser stream were verified on Railway with a 1 GB service cap (953 MiB), with no OOM kills; the cgroup used about 912 MiB including cache. This leaves little room for applications. Use Hobby and at least 2 GB for Chromium, extra packages and larger apps. Free’s 0.5 GB is too small.
+
+**Software rendering.** The pinned base image is overlaid with linuxserver.io’s pinned KWin 6.8.3 layer, which matches Fedora’s executable and supports software rendering without a GPU. The older KWin layer bundled in the base does not match its executable and produced a black desktop.
 
 **First login**
 
