@@ -5,7 +5,7 @@ Listing: **Fedora 44 KDE Plasma Desktop in Your Browser**, "Fedora 44 KDE Plasma
 ## Service: Desktop
 
 - Source: repo `baranberkay96/fedora-kde-desktop-railway`, root directory `/services/desktop` (Dockerfile).
-- Base: `lscr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab` (built 2026-11-17, 1.90 GB compressed).
+- Base: `ghcr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab` (built 2026-11-17, 1.90 GB compressed).
 - Matching software-rendering layer: `ghcr.io/linuxserver/selkies-layers:amd64-fedora44-kwin@sha256:fd08eb7e43f41f7c35a368c43585e7f8f8d6595746fd0523c65d3352dcba3ed3` (KWin 6.8.3, checked 2026-11-21).
 - Public domain, target port 3000, healthcheck `/healthz` (600 s), restart ON_FAILURE ×10, 1 replica.
 - Volume `/config`.

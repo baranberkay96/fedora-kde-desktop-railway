@@ -17,7 +17,7 @@
     "repo": "linuxserver/docker-webtop",
     "branch": "fedora-kde",
     "version": "fedora-kde-e6db4cc0-ls306",
-    "image": "lscr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab",
+    "image": "ghcr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab",
     "base": "baseimage-selkies:fedora44",
     "checked": "2026-11-21",
     "kwinLayer": "ghcr.io/linuxserver/selkies-layers:amd64-fedora44-kwin@sha256:fd08eb7e43f41f7c35a368c43585e7f8f8d6595746fd0523c65d3352dcba3ed3"

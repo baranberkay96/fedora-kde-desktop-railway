@@ -2,7 +2,7 @@
 
 ## Base image and its components
 
-The service is built `FROM lscr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab` (built 2026-11-17; multi-arch index digest checked on Docker Hub 2026-11-20, 1.90 GB compressed for amd64, below the 4 GB Trial/Free image limit). The base is overlaid with the official ABI-matched KWin software-rendering layer listed below. This repository contains no copy of its source files.
+The service is built `FROM ghcr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab` (built 2026-11-17; multi-arch index digest checked on Docker Hub 2026-11-20, 1.90 GB compressed for amd64, below the 4 GB Trial/Free image limit). The base is overlaid with the official ABI-matched KWin software-rendering layer listed below. This repository contains no copy of its source files.
 
 | Component | Source | License | How it is used |
 |---|---|---|---|

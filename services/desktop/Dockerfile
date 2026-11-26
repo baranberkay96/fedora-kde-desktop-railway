@@ -7,7 +7,9 @@
 # baseimage-selkies:fedora44). The digest is the multi-arch index, identical
 # on lscr.io, ghcr.io and Docker Hub. To upgrade, replace tag and digest
 # together with a newer "fedora-kde-<hash>-ls<n>" release and redeploy.
-FROM lscr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab
+# Pulled from ghcr.io directly: lscr.io only redirects there, and a failed
+# redirect fails the whole build at this step.
+FROM ghcr.io/linuxserver/webtop:fedora-kde-e6db4cc0-ls306@sha256:7701fecc2c01d70db77b1f04fbe84563d757752727a6cb919ee7ba894174a7ab
 
 # The base contains Fedora KWin 6.8.3 but its software-rendering layer is
 # 6.8.2 and is never loaded. Use the matching official patched 6.8.3 layer.
